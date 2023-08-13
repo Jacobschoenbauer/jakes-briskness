@@ -1,0 +1,261 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  .logo {
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+  }
+  .logo-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4% 0% 0% 0%;
+  }
+  .header-images {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .figure {
+    position: relative;
+  }
+  .figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 0.2s;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
+  
+  .nav-all {
+    background-color: #ebeeea;
+    display: grid;
+    grid-template-columns: 25% 65% auto;
+  }
+  .navbox {
+    text-align: center;
+  }
+  .navgate {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navFont {
+    color: #0c0c0c;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px #323b2c;
+    text-decoration: none;
+  }
+  .navSearch {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 25px;
+  }
+  .num {
+    display: flex;
+    color: #0f100f;
+    text-decoration: none;
+    align-items: center;
+    font-size: 150%;
+    margin: 12px;
+  }
+  .phone {
+    color: #090909 !important;
+    margin: 3px;
+  }
+  .slogan {
+    color: #141413;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px #323b2c;
+    margin: 0;
+  }
+  .iconAbout {
+    height: 70px;
+    width: 70px;
+  }
+  .about-product {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #0d0d0d;
+    text-shadow: 2px 2px #323b2c;
+    padding: 20px;
+    background-color: #e9ede7;
+  }
+  .service-two-background {
+    background-color: #eaefe7;
+  }
+  
+  .about-work {
+    font-size: 25px;
+  }
+  .mainAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-story {
+    font-size: 30px;
+    background-color: #323b2c;
+    color: #0d0d0d;
+    margin: 10px;
+    padding: 20px;
+    height: 50%;
+    width: 50%;
+  }
+  
+  .iconCss {
+    text-align: center;
+    background-color: #ecf0e9;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+  }
+  .aboutService {
+    display: flex;
+    align-items: center;
+    color: #0f0f0e;
+    text-shadow: 2px 2px #323b2c;
+  }
+  .service-one-title,
+  .service-two-title {
+    height: auto;
+    width: auto;
+    font-size: 60px;
+    background-color: #f4f6f3;
+    color: #0c0c0c;
+    padding: 2%;
+    text-align: center;
+  }
+  .service-one-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .service-one-about {
+    font-size: 25px;
+    background-color: #f2f6ef;
+    color: #0d0d0d;
+    padding: 30px;
+    height: 100%;
+    width: 300px;
+  }
+  
+  .aboutPhoto {
+    height: 300px;
+    width: 220px;
+    object-fit: cover;
+  }
+  .product-flex {
+    text-align: center;
+  }
+  .product {
+    color: #0c0c0c;
+  }
+  .contact-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-image {
+    height: 200px;
+  }
+  .intro-contact {
+    color: #0c0c0c;
+    text-shadow: 2px 2px #323b2c;
+    font-size: 30px;
+    text-align: center;
+    background-color: #f4f7f3;
+    width: 60%;
+    padding: 20px;
+  }
+  .contact-phone,
+  .contact-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0d0d0d;
+    font-size: 100%;
+  }
+  
+  .faceBook {
+    border-radius: 50%;
+    width: 60%;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .facebook-footer {
+    text-align: center;
+    width: 15%;
+  }
+  /*media to change for differnt screens*/
+  @media screen and (max-width: 1000px) {
+    .header-images .img.Sirv.image-hover{
+      height: 200px;
+    }
+    .nav-all {
+      display: flex;
+      flex-direction: column;
+    }
+    .logo {
+      height: 50%;
+      width: 50%;
+    }
+    .navFont {
+      font-size: 150%;
+    }
+    .num {
+      font-size: 20px;
+    }
+    .about-story {
+      font-size: 100%;
+      height: auto;
+      width: auto;
+      margin: 0;
+    }
+    .intro-contact {
+      font-size: 100%;
+    }
+    .service-one-about {
+      font-size: 100%;
+    }
+    .aboutPhoto {
+      height: 50%;
+      width: 50%;
+      margin: 0;
+    }
+    .aboutMain {
+      height: 75%;
+      width: 75%;
+    }
+    .service-one-flex {
+      display: flex;
+      flex-direction: column;
+    }
+   
+  }
+  

@@ -1,0 +1,91 @@
+{
+
+"about": {
+    "title": "Schoenbauer Designs",
+    "serviceOne":"work",
+    "serviceTwo":"fun",
+    "telephone": "651-285-8336",
+    "slogan": "We love to code",
+    "email": "jhwt65@gamil.com",
+    "facebook": "https://www.facebook.com/jacob.schoenbauer/",
+    "introContact":"I would love your business. ",
+    "about":" ",
+    "instagram": "I am ready to make your page amazing",
+    "aboutServiceOne":" ",
+    "aboutServiceTwo":" "
+},
+"service":{
+   "serviceOne":"",
+   "serviceTwo":""
+},
+
+"product":{
+   "product1": "",
+   "product1Photo":[
+      {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+     ],
+   "product2":"",
+   "product2Photo":[
+      {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+     ],
+   "product3":"",
+   "product3Photo":[
+      {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+     ],
+   "product4":"",
+   "product4Photo":[
+      {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+     ],
+   "product5":"",
+   "product5Photo":[
+      {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+     ],
+   "product6":"",
+   "product6Photo":[
+      {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+     ]
+},
+"images":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+     
+],
+"imagesTwo":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+],
+   "logo":[
+      {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+],
+
+"homeImage":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+   ],
+"faceBook":[
+    {"alt":"Great Facebook","src":"./pic/facebook-logo.png"}
+   ],
+"iconOne":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+   ],
+"iconTwo":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+   ],
+"iconThree":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+   ],
+"iconFour":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+   ],
+"iconFive":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+   ],
+"iconSix":[
+   {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
+   ],
+   
+"emailLogo":[
+      {"alt":"Great Lawn care","src":"./pic/emaillogo3.avif"}
+     ],
+"phoneLogo":[
+      {"alt":"Best snow plow","src":"./pic/Phone-logo3.png"}
+     ]
+
+}
