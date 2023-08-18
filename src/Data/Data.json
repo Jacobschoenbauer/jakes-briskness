@@ -62,6 +62,9 @@
 "faceBook":[
     {"alt":"Great Facebook","src":"./pic/facebook-logo.png"}
    ],
+   "ebay":[
+      {"alt":"Great ebay","src":"./pic/eBay-Emblem.png"}
+     ],
 "iconOne":[
    {"alt":"Change Me","src":"./pic/IMG_2602.jpg"}
    ],

@@ -54,11 +54,11 @@ export default class Nav extends Component {
               </div>
             </div>
             <div className="num ">
-              <div>Call</div>
-              <a className="phone " href="tel:651-500-1758">
+              <div></div>
+              <a className="phone " href="tel:651-285-8336">
                 {telephone}
               </a>
-              <div>for a free estimate</div>
+              <div></div>
             </div>
           </section>
           <section className="figure">

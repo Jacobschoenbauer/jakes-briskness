@@ -6,6 +6,11 @@ const faceBook = data.faceBook.map(({ alt, src }) => (
     <img className="faceBook" src={src} alt={alt} />
   </div>
 ));
+const ebay = data.ebay.map(({ alt, src }) => (
+  <div>
+    <img className="faceBook" src={src} alt={alt} />
+  </div>
+));
 export default class Footer extends Component {
   render() {
     return (
@@ -13,9 +18,15 @@ export default class Footer extends Component {
         <div className="footer">
           <a
             className="facebook-footer"
-            href="https://www.facebook.com/profile.php?id=100092271052712"
+            href="https://www.facebook.com/jacob.schoenbauer"
           >
             {faceBook}
+          </a>
+           <a
+            className="facebook-footer"
+            href="https://www.ebay.com/mys/active"
+          >
+            {ebay}
           </a>
         </div>
       </div>
