@@ -27,11 +27,11 @@ export default class ServiceOne extends Component {
 
     return (
       <div>
-        <section className="service-one-title">
+        <section className="service-one-title font-color ">
           <div>{serviceOne}</div>
         </section>
         <article className="service-one-main">
-          <section className="service-one-about">{aboutServiceOne}</section>
+          <section className="service-one-about font-color ">{aboutServiceOne}</section>
           <section className="service-one-flex">
             <div className="product-flex">
               <div className="product">{product1}</div>

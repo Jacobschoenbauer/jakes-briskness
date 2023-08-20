@@ -48,12 +48,12 @@ export default class Nav extends Component {
                 </Link>
               </div>
               <div>
-                <Link className="contact navFont" to="/contact">
+                <Link className="contact font-color" to="/contact">
                   Contact
                 </Link>
               </div>
             </div>
-            <div className="num ">
+            <div className="num font-color">
               <div></div>
               <a className="phone " href="tel:651-285-8336">
                 {telephone}
@@ -65,7 +65,7 @@ export default class Nav extends Component {
             <div>{images}</div>
             <div>{imagesTwo}</div>
           </section>
-          <div className="slogan">{slogan}</div>
+          <div className="slogan font-color">{slogan}</div>
         </div>
       </div>
     );

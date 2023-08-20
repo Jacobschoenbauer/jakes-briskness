@@ -47,34 +47,34 @@ export default class About extends Component {
     return (
       <div>
         <article className="about-flex">
-          <section className="about-product">
-            <section className="serviceOne  aboutService">
+          <section className="about-product font-color ">
+            <section className="serviceOne  aboutService font-color ">
               <div className="iconCss"></div>
               <div className="about-work">{product1}</div>
             </section>
-            <section className="serviceTwo aboutService">
+            <section className="serviceTwo aboutService font-color ">
               <div className="iconCss"></div>
               <div className="about-work">{product2}</div>
             </section>
-            <section className="serviceThree aboutService">
+            <section className="serviceThree aboutService font-color ">
               <div className="iconCss"></div>
               <div className="about-work">{product3}</div>
             </section>
-            <section className="serviceFour aboutService">
+            <section className="serviceFour aboutService font-color ">
               <div className="iconCss"></div>
               <div className="about-work">{product4}</div>
             </section>
-            <section className="serviceFive aboutService">
+            <section className="serviceFive aboutService font-color ">
               <div className="iconCss"></div>
               <div className="about-work">{product5}</div>
             </section>
-            <section className="serviceSix aboutService">
+            <section className="serviceSix aboutService font-color ">
               <div className="iconCss"></div>
               <div className="about-work">{product6}</div>
             </section>
           </section>
           <div className="mainAbout">
-            <section className="about-story">{about}</section>
+            <section className="about-story font-color ">{about}</section>
             <section className="about-photo">{homeImage} </section>
           </div>
         </article>
