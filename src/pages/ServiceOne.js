@@ -34,15 +34,15 @@ export default class ServiceOne extends Component {
           <section className="service-one-about font-color ">{aboutServiceOne}</section>
           <section className="service-one-flex">
             <div className="product-flex">
-              <div className="product">{product1}</div>
+              <div className="product font-color">{product1}</div>
               <div>{product1Photo}</div>
             </div>
             <div className="product-flex">
-              <div className="product">{product2}</div>
+              <div className="product font-color">{product2}</div>
               <div>{product2Photo}</div>
             </div>
             <div className="product-flex">
-              <div className="product">{product3}</div>
+              <div className="product font-color">{product3}</div>
               <div>{product3Photo}</div>
             </div>
           </section>

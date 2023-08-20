@@ -33,22 +33,22 @@ export default class Nav extends Component {
           <section className="navgate">
             <div className="navSearch">
               <div>
-                <Link className="about navFont" to="/">
+                <Link className="about navFont font-color" to="/">
                   About
                 </Link>
               </div>
               <div>
-                <Link className="service navFont" to="/ServiceOne">
+                <Link className="service navFont font-color" to="/ServiceOne">
                   {serviceOne}
                 </Link>
               </div>
               <div>
-                <Link className="service navFont" to="/ServiceTwo">
+                <Link className="service navFont font-color" to="/ServiceTwo">
                   {serviceTwo}
                 </Link>
               </div>
               <div>
-                <Link className="contact font-color" to="/contact">
+                <Link className="contact navFont font-color" to="/contact">
                   Contact
                 </Link>
               </div>

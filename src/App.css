@@ -8,7 +8,11 @@ body {
   border-radius: 50%;
 }
 .font-color {
-  color: black;
+  color: rgb(211, 49, 49);
+  text-shadow: 2px 2px #e4e9e2;
+}
+.product {
+  color: #0c0c0c;
 }
 .logo-box {
   display: flex;
@@ -63,7 +67,6 @@ body {
 .navFont {
   font-size: 25px;
   text-align: center;
-  text-shadow: 2px 2px #323b2c;
   text-decoration: none;
 }
 .navSearch {
@@ -81,13 +84,12 @@ body {
   margin: 12px;
 }
 .phone {
-  color: #090909 !important;
+  color: #d72626 !important;
   margin: 3px;
 }
 .slogan {
   font-size: 25px;
   text-align: center;
-  text-shadow: 2px 2px #323b2c;
   margin: 0;
 }
 .iconAbout {
@@ -98,7 +100,6 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  text-shadow: 2px 2px #323b2c;
   padding: 20px;
   background-color: #e9ede7;
 }
@@ -133,7 +134,6 @@ body {
 .aboutService {
   display: flex;
   align-items: center;
-  text-shadow: 2px 2px #323b2c;
 }
 .service-one-title,
 .service-two-title {
@@ -165,9 +165,7 @@ body {
 .product-flex {
   text-align: center;
 }
-.product {
-  color: #0c0c0c;
-}
+
 .contact-flex {
   display: flex;
   flex-direction: column;
@@ -177,8 +175,6 @@ body {
   height: 200px;
 }
 .intro-contact {
-  color: #0c0c0c;
-  text-shadow: 2px 2px #323b2c;
   font-size: 30px;
   text-align: center;
   background-color: #f4f7f3;
@@ -190,7 +186,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #0d0d0d;
   font-size: 100%;
 }
 

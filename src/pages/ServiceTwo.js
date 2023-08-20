@@ -31,15 +31,15 @@ export default class About extends Component {
         <article className="service-one-main">
           <section className="">
             <div className="product-flex">
-              <div className="productTwo">{product4}</div>
+              <div className="productTwo font-color">{product4}</div>
               <div>{product4Photo}</div>
             </div>
             <div className="product-flex">
-              <div className="productTwo">{product5}</div>
+              <div className="productTwo font-color">{product5}</div>
               <div>{product5Photo}</div>
             </div>
             <div className="product-flex">
-              <div className="productTwo">{product6}</div>
+              <div className="productTwo font-color">{product6}</div>
               <div>{product6Photo}</div>
             </div>
           </section>
