@@ -21,7 +21,7 @@ export default class Contact extends Component {
     return (
       <div>
         <article className="contact-flex">
-          <section className="intro-contact font-color"><h3>{introContact}</h3></section>
+          <section className="intro-contact font-color background-three"><h3>{introContact}</h3></section>
           <section className="contact-phone font-color">
             <a className="phone" href="tel:651-285-8336">
               {phoneLogo}

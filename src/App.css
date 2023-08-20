@@ -11,8 +11,28 @@ body {
   color: rgb(211, 49, 49);
   text-shadow: 2px 2px #e4e9e2;
 }
-.product {
-  color: #0c0c0c;
+.phone {
+  color: #d72626 !important;
+  margin: 3px;
+}
+.background-main{
+  background-color: #323b2c;
+}
+.background-two{
+  background-color: aqua;
+}
+.background-three{
+  background-color: orange;
+}
+.service-two-background {
+  background-color: #eaefe7;
+}
+.iconCss {
+  text-align: center;
+  background-color: #ecf0e9;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
 }
 .logo-box {
   display: flex;
@@ -46,7 +66,6 @@ body {
 }
 
 .nav-all {
-  background-color: #ebeeea;
   display: grid;
   grid-template-columns: 25% 65% auto;
 }
@@ -77,16 +96,12 @@ body {
 }
 .num {
   display: flex;
-
   text-decoration: none;
   align-items: center;
   font-size: 150%;
   margin: 12px;
 }
-.phone {
-  color: #d72626 !important;
-  margin: 3px;
-}
+
 .slogan {
   font-size: 25px;
   text-align: center;
@@ -101,11 +116,8 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: #e9ede7;
 }
-.service-two-background {
-  background-color: #eaefe7;
-}
+
 
 .about-work {
   font-size: 25px;
@@ -117,20 +129,13 @@ body {
 }
 .about-story {
   font-size: 30px;
-  background-color: #323b2c;
   margin: 10px;
   padding: 20px;
   height: 50%;
   width: 50%;
 }
 
-.iconCss {
-  text-align: center;
-  background-color: #ecf0e9;
-  height: 20px;
-  width: 20px;
-  margin: 5px;
-}
+
 .aboutService {
   display: flex;
   align-items: center;
@@ -140,7 +145,6 @@ body {
   height: auto;
   width: auto;
   font-size: 60px;
-  background-color: #f4f6f3;
   padding: 2%;
   text-align: center;
 }
@@ -151,7 +155,6 @@ body {
 }
 .service-one-about {
   font-size: 25px;
-  background-color: #f2f6ef;
   padding: 30px;
   height: 100%;
   width: 300px;
@@ -177,7 +180,6 @@ body {
 .intro-contact {
   font-size: 30px;
   text-align: center;
-  background-color: #f4f7f3;
   width: 60%;
   padding: 20px;
 }

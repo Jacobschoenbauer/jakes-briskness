@@ -25,7 +25,7 @@ export default class Nav extends Component {
     } = data;
 
     return (
-      <div className="nav-all">
+      <div className="nav-all background-main">
         <div className="logo-box">
           <div className="logo">{logo}</div>
         </div>
